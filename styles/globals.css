@@ -6,4 +6,8 @@
     .button {
         @apply px-4 border rounded-full cursor-pointer hover:shadow-lg active:scale-95 active:bg-gray-100 transition transform duration-100 ease-out
     }
+
+    .footerInfo {
+        @apply space-y-4 text-xs text-gray-800 cursor-pointer
+    }
 }

@@ -7,9 +7,10 @@ import LargeCard from "../components/LargeCard";
 import MediumCard from "../components/MediumCard";
 import SmallCard from "../components/SmallCard";
 
-export default function Home({ exploreData, cardsData }) {
+export default function Home({ exploreData, cardsData,resetInput }) {
+
   return (
-    <div className="">
+    <div onClick={resetInput} className="">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
